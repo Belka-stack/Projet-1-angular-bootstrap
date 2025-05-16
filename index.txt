@@ -1,0 +1,10 @@
+// Exemple avec une collection de 'pokémons'
+
+GET pokemons // renoie tous les pokémons
+GET pokemons/1 // renvoie le pokémon avec l'identifiant 1
+POST /pokemons // ajoute un nouveau pokémon
+PUT pokemons/1 // modifie le pokémon avec l'identifiant 1
+
+GET pokemons?name='Bulbizzare' // Recherche un Pokémon par son nom
+GET pokemons?_page=1&_limit=10 // Pagine les Pokémon
+GERT pokémons?_sort=name&_order=asc // Tri la liste des Pokémon
